@@ -10,6 +10,8 @@
         }
 .navbar-brand{width:9rem;}
 
+.control-label{color:#E80F88}
+
 .j1{width:59rem;
     padding-top:6rem;
     padding-right:10rem;
@@ -133,7 +135,7 @@ hr{margin:0 auto;
 #About_me{background-color:#4C0033}
 
 .my{padding-top:8rem;}
-.man{height:32rem;
+.man{height:35rem;
 margin-left:4rem;}
 .con{margin:0 auto;}
 .hi{font-family:"Montserrat";

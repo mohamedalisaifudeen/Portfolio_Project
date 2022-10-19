@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,6 +20,7 @@
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
+{% import "bootstrap/wtf.html" as wtf %}
 <section id="navbar">
     <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand" href="#"><img class='navbar-brand' src="../static/Gold-Pink.png"></a>
@@ -126,7 +128,16 @@
     </div>
     <div class="col-lg-6">
         <h2 class="hi">Hi There!</h2>
+
         <p class="new">Im Mohamed Ali and I pursued my Advanced level and Ordinary level education at Royal College. I have completed a diploma in Technology , English as well as business.Once I completed my diploma in Technology and based on the interest that I had towards programming I joined to a bootcamp in Udemy which relly helped me to gain a good amount of knowledge in Python.  </p>
+
+
+
+        <form method="post" action="/">
+
+            {{ form1.csrf_token }}
+            {{ wtf.quick_form(form1,button_map={'submit':"danger"}) }}
+        </form>
     </div>
 
   </div>
