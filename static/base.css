@@ -1,0 +1,160 @@
+.navbar-expand-lg {padding-right:12rem;
+                         padding-left:12rem;
+                         padding-top:4rem;
+                         }
+
+.nav-link,.navbar-brand{color:#FFF !important;
+                        font-family:"Ubuntu";
+                        margin-right:3rem;}
+#navbar{background-color:#4C0033;
+        }
+.navbar-brand{width:9rem;}
+
+.j1{width:59rem;
+    padding-top:6rem;
+    padding-right:10rem;
+    margin-left:26rem;
+    margin-top:17px;
+    height:46rem;}
+
+.navbar-nav{margin-right:10rem;}
+
+.container{margin-left:0;}
+
+h1{margin-left:13rem;
+   font-family:"Montserrat";
+   color:#FFF;
+   margin-top:17px;
+   text-align:left;
+   white-space:nowrap;
+   font-size:3rem;}
+
+.hello{color:#E80F88;
+       margin-top:9rem;}
+
+p{margin-left:210px;
+  color:#FFF;
+  margin-top:2rem;
+  white-space:normal;
+  font-size:revert;
+  font-family:"Ubuntu";}
+
+.button1{margin-left:13rem;
+         font-family:'Ubuntu';
+         margin-top:1rem;
+         margin-bottom:3rem;
+         width:10rem
+         }
+
+
+
+.new,.con{margin-right:0;
+     margin-left:0;}
+
+.diff{ height: 50px;
+  width: 50px;
+  border: 5px solid #E80F88 ;
+  height:18rem;
+  width:16rem;
+  position:relative;
+  margin:0 auto;
+  margin-top:99px;
+  margin-bottom:6rem;
+  margin-left:443px;
+  }
+.dif{position:absolute;
+     z-index:2;
+     height: 50px;
+     width: 50px;
+     border: 5px solid #E80F88 ;
+     height:18rem;
+     width:17rem;
+     margin-left:487px;
+     margin-top:57px;
+     background-color:#4C0033;
+     }
+.j2{height:-webkit-fill-available;
+    width:-webkit-fill-available;}
+
+.about{text-align:center;
+       font-family:"Montserrat";
+       color:#FFF;}
+
+.para{color:black;
+      font-family:"Ubuntu";
+      margin-left:0px;
+      text-align:center;
+      color:#FFF;}
+
+hr{margin:0 auto;
+   border:4px solid;
+   color:#E80F88;
+   width:2rem;
+   margin-bottom:21px;}
+
+#experience{background-color:#790252;
+            padding-top:6rem;}
+
+.bottom{margin:0 auto;
+   border:2px solid;
+   color:#E80F88;
+   width:2rem;
+   margin-bottom:6rem;
+   margin-top:2rem;}
+
+.overflow-hidden{margin-left:26rem;}
+
+.gutter1,.gutter2{margin-bottom:9rem;
+                  margin-top:2rem;
+
+       }
+
+.p-3 {width:14rem;
+      height:16rem;
+      margin-left:7rem;
+      border-radius: 16px;}
+
+.code{margin-left:0px;
+     color:black;
+     font-family:"Montserrat";
+     font-size:20px;
+     margin-top:14px;
+     margin-bottom:0px;}
+
+.icon{color:#E80F88;}
+
+.description{margin-left:0;
+            color:black;
+            margin-top:0;
+            font-size:13px;}
+
+.abc{margin-bottom:10rem;}
+
+#About_me{background-color:#4C0033}
+
+.my{padding-top:8rem;}
+.man{height:32rem;
+margin-left:4rem;}
+.con{margin:0 auto;}
+.hi{font-family:"Montserrat";
+    color:#E80F88}
+
+.head_ico{margin-left:210px;}
+.ic{margin-right:1rem;
+    margin-bottom:5rem;
+    color:#E80F88;}
+
+@media only screen and (max-width: 768px) {
+    .hello,h1,p,.button1,.head_ico{margin-left:3rem;}
+    .navbar-brand {margin-left:-80px;}
+    .navbar-toggler {margin-left:10rem;
+                       }
+    .j1{margin:0 auto;
+        width:43rem;
+        height:38rem;}
+    .overflow-hidden{margin:0 auto;}
+    .hi{text-align:center;
+        margin-top:5rem;}
+    .new{text-align:center;}
+}
+
