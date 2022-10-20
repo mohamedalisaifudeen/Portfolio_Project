@@ -151,12 +151,18 @@ margin-left:4rem;}
     .navbar-brand {margin-left:-80px;}
     .navbar-toggler {margin-left:10rem;
                        }
-    .j1{margin:0 auto;
-        width:43rem;
-        height:38rem;}
-    .overflow-hidden{margin:0 auto;}
+
+    .j1{margin-left:88px;
+        width:47rem;
+        height:39rem;}
+
+    .overflow-hidden{margin:0 auto;
+                     width:50%;}
     .hi{text-align:center;
         margin-top:5rem;}
     .new{text-align:center;}
+    #experience{margin:0px;
+                }
+    .new_man{text-align:center;}
 }
 
