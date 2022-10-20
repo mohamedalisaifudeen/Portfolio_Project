@@ -1,10 +1,15 @@
-from flask import Flask,render_template
+import sys
+
+from flask import Flask, render_template, logging
 from flask_wtf import FlaskForm
 from wtforms import StringField,SubmitField,TextAreaField
 from wtforms.validators import data_required,email_validator
 from flask_bootstrap import Bootstrap
 from flask_mail import Mail,Message
 app=Flask(__name__)
+
+
+
 
 app.secret_key="MohamedAli123456"
 Bootstrap(app)
