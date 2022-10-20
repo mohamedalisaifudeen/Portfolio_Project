@@ -146,23 +146,22 @@ margin-left:4rem;}
     margin-bottom:5rem;
     color:#E80F88;}
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     .hello,h1,p,.button1,.head_ico{margin-left:3rem;}
     .navbar-brand {margin-left:-80px;}
-    .navbar-toggler {margin-left:10rem;
-                       }
+    .navbar-toggler {margin-left:10rem;}
 
     .j1{margin-left:88px;
         width:47rem;
-        height:39rem;}
+        height:39rem;
+        padding-top:0px;}
 
     .overflow-hidden{margin:0 auto;
                      width:50%;}
     .hi{text-align:center;
         margin-top:5rem;}
     .new{text-align:center;}
-    #experience{margin:0px;
-                }
+    #experience{margin:0px;}
     .new_man{text-align:center;}
 }
 
