@@ -146,7 +146,8 @@ margin-left:4rem;}
     margin-bottom:5rem;
     color:#E80F88;}
 
-body{width:100vh;}
+
+
 
 @media only screen and (max-width: 768px) {
     .hello,h1,p,.button1,.head_ico{margin-left:3rem;}
