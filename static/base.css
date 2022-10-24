@@ -164,11 +164,13 @@ margin-left:4rem;}
 
 
     .overflow-hidden{margin:0 auto;
-                     width:72%;}
+                     width:51%;}
     .hi{text-align:center;
         margin-top:5rem;}
     .new{text-align:center;}
     #experience{margin:0px;}
     .new_man{text-align:center;}
+
+    .man{margin:0 auto;}
 }
 
