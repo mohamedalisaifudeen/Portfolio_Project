@@ -152,17 +152,19 @@ margin-left:4rem;}
 @media only screen and (max-width: 768px) {
     .hello,h1,p,.button1,.head_ico{margin-left:3rem;}
     .navbar-brand {margin-left:-80px;}
-    .navbar-toggler {margin-left:10rem;}
+
 
     .j1{margin-left:auto;
         width:47rem;
         height:39rem;
         padding-top:0px;}
 
+    body{width:40rem;}
+
 
 
     .overflow-hidden{margin:0 auto;
-                     width:80%;}
+                     width:72%;}
     .hi{text-align:center;
         margin-top:5rem;}
     .new{text-align:center;}
